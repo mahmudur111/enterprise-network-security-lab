@@ -61,3 +61,26 @@ ss -tulpn | grep named
 - Port analysis
 
 - Linux networking services
+
+
+
+
+## DNS Zone Test Result
+
+
+
+Created a custom DNS zone `lab.local` using Bind9.
+
+
+
+Successful forward lookup:
+
+
+
+server.lab.local -> 192.168.12.131  
+
+router.lab.local -> 192.168.12.2
+
+
+
+The DNS server returned NOERROR and resolved the internal hostname successfully.
